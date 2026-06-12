@@ -625,3 +625,44 @@ body {
     margin-bottom: 0;
     padding-bottom: 0.5rem;
 }
+body {
+    margin: 0;
+    padding: 0;
+}
+.container {
+    padding-top: 0;
+}
+.site-header {
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
+.warning-box {
+    display: block;
+    max-width: 700px;
+    margin: 0 auto 1.5rem auto;
+
+    padding: 0.8rem 1rem;
+    border-radius: 12px;
+
+    border: 2px solid red;
+    background: rgba(255, 0, 0, 0.06);
+
+    color: red !important;
+    font-weight: 700;
+    text-align: center;
+    line-height: 1.3;
+}
+.ai-hype-content {
+    color: #ffd700;
+}
+
+.ai-hype-content h1,
+.ai-hype-content h2,
+.ai-hype-content h3,
+.ai-hype-content p,
+.ai-hype-content li {
+    color: #ffd700;
+}
+.ai-hype-content * {
+    color: #ffd700 !important;
+}
