@@ -579,3 +579,36 @@ main.container {
 .security-text p {
     color: #EBAD14 !important;
 }
+.site-header a {
+    color: #58c25e;
+    text-decoration: underline;
+}
+.logo {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #58c25e;
+}
+.ai-title {
+    border: 2px solid #ffd700;
+    border-radius: 12px;
+    padding: 1rem;
+    margin: 0 auto 3rem auto;
+    max-width: 700px;
+
+    color: #ffd700;
+
+    text-align: center;
+}
+.ai-text {
+    color: #ffd700;
+}
+.site-header nav a {
+    color: #58c25e !important;
+    text-decoration: underline !important;
+}
+.ai-text p {
+    color: #ffd700 !important;
+}
+h2.ai-title {
+    color: #ffd700 !important;
+}
