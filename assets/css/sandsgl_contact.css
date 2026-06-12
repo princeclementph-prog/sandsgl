@@ -771,3 +771,31 @@ main.container .tools-section p {
 html body main.container section.tools-section p.tools-title {
     color: #ffffff !important;
 }
+.cta-box {
+    display: inline-block;
+    padding: 1rem 1.4rem;
+    border-radius: 14px;
+
+    border: 2px solid #ffd700;
+
+    /* IMPORTANT: remove dark wash that made it look darker */
+    background: rgba(255, 215, 0, 0.12);
+
+    color: #ffd700;
+    font-weight: 600;
+
+    text-align: center;
+    margin: 1.5rem auto;
+
+    /* stronger outer glow */
+    box-shadow:
+        0 0 10px rgba(255, 215, 0, 0.6),
+        0 0 25px rgba(255, 215, 0, 0.35),
+        0 0 50px rgba(255, 215, 0, 0.15);
+
+    transition: all 0.25s ease;
+
+}
+.cta-box {
+    color: #ffd700 !important;
+}
