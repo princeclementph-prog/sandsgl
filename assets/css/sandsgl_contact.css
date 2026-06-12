@@ -666,3 +666,99 @@ body {
 .ai-hype-content * {
     color: #ffd700 !important;
 }
+.data-services {
+    display: grid;
+    gap: 0.8rem;
+    margin-top: 1rem;
+}
+
+.service-card {
+    padding: 0.9rem 1rem;
+    border-radius: 12px;
+
+    /* green border */
+    border: 1px solid rgba(88, 194, 94, 0.35);
+
+    /* subtle green background glow */
+    background: rgba(88, 194, 94, 0.06);
+
+    color: #58c25e;
+
+    transition: all 0.25s ease;
+    cursor: pointer;
+}
+
+/* hover effect */
+.service-card:hover {
+    transform: translateY(-3px);
+
+    /* stronger glow */
+    box-shadow:
+        0 0 14px rgba(88, 194, 94, 0.45),
+        0 0 30px rgba(88, 194, 94, 0.15);
+
+    border-color: #58c25e;
+
+    /* slightly stronger background glow */
+    background: rgba(88, 194, 94, 0.12);
+
+}
+.title-box {
+    display: inline-block;
+    padding: 0.9rem 1.4rem;
+    border-radius: 14px;
+
+    /* thicker border */
+    border: 3px solid rgba(88, 194, 94, 0.85);
+
+    background: rgba(88, 194, 94, 0.06);
+
+    /* stronger glow */
+    box-shadow:
+        0 0 12px rgba(88, 194, 94, 0.25),
+        0 0 25px rgba(88, 194, 94, 0.12);
+
+    margin: 0.5rem 0 1rem 0;
+}
+
+.title-box h2 {
+    margin: 0;
+    color: #ffd700;
+
+}
+.title-box h2 {
+    margin: 0 !important;
+    color: var(--gold) !important;
+    background: transparent !important;
+}
+.title-box h2 {
+    color: var(--gold) !important;
+    background: transparent !important;
+    margin: 0;
+}
+* {
+    color: white;
+    background: black;
+}
+.title-box h2 {
+    color: var(--gold);
+}
+.title-box h2 {
+    color: #ffd700 !important;
+    background: transparent !important;
+}
+.data-intro {
+    color: var(--gold) !important;
+}
+p.data-intro {
+    color: #ffd700 !important;
+    background: transparent !important;
+}
+.data-services {
+    margin-bottom: 2.5rem;
+}
+
+.data-section a[role="button"] {
+    display: inline-block;
+    margin-top: 2.5rem;
+}
