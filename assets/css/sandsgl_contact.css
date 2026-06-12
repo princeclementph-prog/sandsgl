@@ -612,3 +612,16 @@ main.container {
 h2.ai-title {
     color: #ffd700 !important;
 }
+.logo {
+    font-size: 2.4rem;
+    font-weight: 900;
+    letter-spacing: 1px;
+}
+body {
+    margin: 0;
+    padding: 0;
+
+}.site-header {
+    margin-bottom: 0;
+    padding-bottom: 0.5rem;
+}
