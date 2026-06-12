@@ -762,3 +762,12 @@ p.data-intro {
     display: inline-block;
     margin-top: 2.5rem;
 }
+.tools-subtext {
+    color: var(--green) !important;
+}
+main.container .tools-section p {
+    color: #58c25e !important;
+}
+html body main.container section.tools-section p.tools-title {
+    color: #ffffff !important;
+}
